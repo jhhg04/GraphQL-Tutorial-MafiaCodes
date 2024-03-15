@@ -1,0 +1,23 @@
+{
+  "name": "graphql-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.18.3",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.0",
+    "ruru": "^2.0.0-beta.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
